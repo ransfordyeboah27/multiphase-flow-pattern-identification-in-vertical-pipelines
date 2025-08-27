@@ -13,6 +13,7 @@ multiphase-flow-pattern-identification/
 │   └── pinn_best_flow_classifier.pt
 │
 ├── notebooks/
+|   ├── cGAN.ipynb
 │   ├── training/
 │   │   ├── 1_training_cnn.ipynb
 │   │   ├── 2_training_tnn.ipynb

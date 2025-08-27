@@ -7,10 +7,10 @@ This repository contains the implementation of Convolutional Neural Network (CNN
 ```
 multiphase-flow-pattern-identification/
 │
-├── models/                    # Directory for trained model files
-│   ├── cnn_model.h5
-│   ├── transformer_model.h5
-│   └── pinn_model.h5
+├── models/                  
+│   ├── cnn_model.keras
+│   ├── transformer_model.keras
+│   └── pinn_best_flow_classifier.pt
 │
 ├── notebooks/
 │   ├── training/
@@ -23,13 +23,13 @@ multiphase-flow-pattern-identification/
 │       ├── 2_Transformer_Testing.ipynb
 │       └── 3_PINN_Testing.ipynb
 │
-├── results/                   # (Optional) For output images, graphs, reports
+├── results/                   
 │   ├── figures/
-│   └── performance_metrics.csv
+│   └── Classification Report.xlsx
 │
-├── requirements.txt           # Python dependencies
-├── LICENSE                    # License for usage
-└── README.md                  # This file
+├── requirements.txt           
+├── LICENSE                    
+└── README.md                  
 ```
 
 ## Installation

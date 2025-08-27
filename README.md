@@ -14,14 +14,14 @@ multiphase-flow-pattern-identification/
 │
 ├── notebooks/
 │   ├── training/
-│   │   ├── 1_CNN_Training.ipynb
-│   │   ├── 2_Transformer_Training.ipynb
-│   │   └── 3_PINN_Training.ipynb
+│   │   ├── 1_training_cnn.ipynb
+│   │   ├── 2_training_tnn.ipynb
+│   │   └── 3_training_pinn.ipynb
 │   │
 │   └── testing/
-│       ├── 1_CNN_Testing.ipynb
-│       ├── 2_Transformer_Testing.ipynb
-│       └── 3_PINN_Testing.ipynb
+│       ├── 1_testing_cnn.ipynb
+│       ├── 2_testing_tnn.ipynb
+│       └── 3_testing_pinn.ipynb
 │
 ├── results/                   
 │   ├── figures/

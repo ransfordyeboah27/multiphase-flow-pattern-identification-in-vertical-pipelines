@@ -9,7 +9,7 @@ multiphase-flow-pattern-identification/
 │
 ├── models/                  
 │   ├── cnn_model.keras
-│   ├── transformer_model.keras
+│   ├── tnn_model.keras
 │   └── pinn_best_flow_classifier.pt
 │
 ├── notebooks/
